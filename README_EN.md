@@ -80,6 +80,17 @@ Recommended way to deploy: **Cloudflare Pages**
     *   `NPM_FLAGS` = `--legacy-peer-deps`
 7.  Click **Save and Deploy**.
 
+### GitHub Pages (Easy)
+
+This repository now includes `.github/workflows/deploy-pages.yml`.
+
+1. Push changes to the `main` branch.
+2. In GitHub repo settings, go to **Pages**.
+3. Set **Build and deployment** source to **GitHub Actions**.
+4. Wait for workflow **Deploy to GitHub Pages** to finish.
+5. Your live URL will be:
+   `https://<your-username>.github.io/SheerID_Doc_Generator/`
+
 ## ⚠️ Disclaimer
 
 **Please read carefully before using this software:**
