@@ -22,6 +22,17 @@
     *   `NPM_FLAGS` = `--legacy-peer-deps`
 7.  点击 **Save and Deploy**。
 
+### GitHub Pages（最简单）
+
+本仓库已包含 `.github/workflows/deploy-pages.yml` 自动部署工作流。
+
+1. 推送代码到 `main` 分支。
+2. 进入 GitHub 仓库 **Settings** -> **Pages**。
+3. 在 **Build and deployment** 中将 Source 设置为 **GitHub Actions**。
+4. 等待工作流 **Deploy to GitHub Pages** 执行完成。
+5. 访问线上地址：
+   `https://<your-username>.github.io/SheerID_Doc_Generator/`
+
 ## 📖 简介 (Introduction)
 
 这是一个基于 **React** + **Vite** + **HeroUI** 构建的现代化 Web 应用，用于快速生成身份验证文档模板。
@@ -98,4 +109,3 @@ This tool is intended for **educational and testing purposes only** (e.g., testi
 ## 📄 License
 
 本项目采用 [MIT License](LICENSE) 开源，但使用需遵守上述免责声明。
-
